@@ -1,0 +1,105 @@
+.designSolution {
+  background-image: url('../public/assets/bg-solutions.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0 100px 0;
+}
+.container {
+  margin-top: -40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  margin-top: 5em;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Monument Extended Regular';
+  justify-content: space-between;
+  max-width: 85%;
+
+}
+.content_left {
+  width: 50%;
+}
+.content_list {
+  display: flex;
+  justify-content: right;
+}
+.content_list ul li {
+  list-style: none;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #00f3f4;
+  line-height: 80px;
+  text-transform: uppercase;
+}
+
+.content h2 {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #9add3a;
+  line-height: 80px;
+}
+@media screen and (max-width: 1280px) {
+  .content h2 {
+    font-size: 1em;
+    line-height: 40px;
+  }
+  .content_list ul li {
+    font-size: 1em;
+  }
+  /* .container {
+    max-width: 96%;
+  } */
+  .content_list ul li {
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 1048px) {
+  .content {
+    max-width: 98%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .container {
+    margin-top: -20px;
+  }
+  .content {
+    margin-top: 3em;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .content_left{
+  text-align: center;
+  width: 90%;
+  }
+  .content {
+    margin-top: 2em;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .content h2 {
+    line-height: 40px;
+  }
+  .content_list {
+  justify-content: center;
+  width: 100%;
+  }
+  .content_list {
+  text-align: center;
+  }
+}
+@media screen and (max-width: 425px) {
+  .designSolution {
+    margin-top: 2em;
+}
+}
