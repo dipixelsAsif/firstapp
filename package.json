@@ -22,8 +22,10 @@
     "react-animated-text": "^0.1.4",
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.1",
+    "react-slick": "^0.29.0",
     "sharp": "^0.32.1",
     "sitemap": "^7.1.1",
+    "slick-carousel": "^1.8.1",
     "swiper": "^9.3.2"
   },
   "devDependencies": {

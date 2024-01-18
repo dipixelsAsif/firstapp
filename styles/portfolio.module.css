@@ -74,6 +74,14 @@
 .websitepackagescard_wrapper {
   max-width: 85%;
 }
+.conditioaldata {
+  background-color: #fff;
+    color: #000 !important;
+    position: absolute;
+    top: 4%;
+    right: 8%;
+}
+
 @media screen and (max-width: 1465px) {
   .portfolio_section_content_images {
     margin-top: 6em;

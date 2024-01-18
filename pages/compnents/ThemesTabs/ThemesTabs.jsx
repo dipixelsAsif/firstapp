@@ -9,27 +9,35 @@ const AllThemesData = [
     },
     {
       image: '/assets/WebPortfolio2.png',
+      ispaid:true
     },
     {
       image: '/assets/WebPortfolio3.png',
+      ispaid:true
     },
     {
       image: '/assets/MobilePortfolio1.png',
+      ispaid:true
     },
     {
       image: '/assets/MobilePortfolio2.png',
+      ispaid:true
     },
     {
       image: '/assets/MobilePortfolio3.png',
+      ispaid:true
     },
     {
       image: '/assets/VideoPortfolio1.png',
+      ispaid:true
     },
     {
       image: '/assets/VideoPortfolio2.png',
+      ispaid:true
     },
     {
       image: '/assets/VideoPortfolio3.png',
+      ispaid:true
     },
   ]
 
@@ -37,45 +45,58 @@ const AllThemesData = [
   const PharmacyData = [
     {
       image: '/assets/WebPortfolio1.png',
+      ispaid:true
     },
     {
       image: '/assets/WebPortfolio2.png',
+      ispaid:true
     },
     {
       image: '/assets/WebPortfolio3.png',
+      ispaid:false
     },
     {
       image: '/assets/WebPortfolio4.png',
+      ispaid:false
     },
     {
       image: '/assets/WebPortfolio5.png',
+      ispaid:false
     },
     {
       image: '/assets/WebPortfolio6.png',
+      ispaid:false
     },
     {
       image: '/assets/VideoPortfolio1.png',
+      ispaid:false
     },
     {
       image: '/assets/VideoPortfolio2.png',
+      ispaid:false
     },
     {
       image: '/assets/VideoPortfolio3.png',
+      ispaid:false
     },
   ]
 
   const ChurchData = [
     {
       image: '/assets/MobilePortfolio1.png',
+      ispaid:true
     },
     {
       image: '/assets/MobilePortfolio2.png',
+      ispaid:true
     },
     {
       image: '/assets/MobilePortfolio3.png',
+      ispaid:true
     },
     {
       image: '/assets/MobilePortfolio4.png',
+      ispaid:true
     },
     // {
     //   image: '/assets/MobilePortfolio5.png',
@@ -86,42 +107,54 @@ const AllThemesData = [
   const DentalClinicsData = [
     {
       image: '/assets/LogoPortfolio1.png',
+      ispaid:false
     },
     {
       image: '/assets/LogoPortfolio2.png',
+      ispaid:false
     },
     {
       image: '/assets/LogoPortfolio3.png',
+      ispaid:false
     },
     {
       image: '/assets/LogoPortfolio4.png',
+      ispaid:false
     },
     {
       image: '/assets/LogoPortfolio5.png',
+      ispaid:false
     },
     {
       image: '/assets/LogoPortfolio6.png',
+      ispaid:true
     },
   ]
 
   const BarbersSaloonsData = [
     {
       image: '/assets/VideoPortfolio1.png',
+      ispaid:true
     },
     {
       image: '/assets/VideoPortfolio2.png',
+      ispaid:true
     },
     {
       image: '/assets/VideoPortfolio3.png',
+      ispaid:true
     },
     {
       image: '/assets/VideoPortfolio4.png',
+      ispaid:true
     },
     {
       image: '/assets/VideoPortfolio5.png',
+      ispaid:true
     },
     {
       image: '/assets/VideoPortfolio6.png',
+      ispaid:true
     },
   ]
 
@@ -130,21 +163,27 @@ const AllThemesData = [
   const GroceryStoresData = [
     {
       image: '/assets/VideoPortfolio1.png',
+      ispaid:true
     },
     {
       image: '/assets/VideoPortfolio2.png',
+      ispaid:true
     },
     {
       image: '/assets/VideoPortfolio3.png',
+      ispaid:true
     },
     {
       image: '/assets/VideoPortfolio4.png',
+      ispaid:true
     },
     {
       image: '/assets/VideoPortfolio5.png',
+      ispaid:true
     },
     {
       image: '/assets/VideoPortfolio6.png',
+      ispaid:true
     },
   ]
 
@@ -218,7 +257,9 @@ const AllThemesData = [
 <div className={styles.tabber_section}>
       <div className={styles.tabber_warpper}>
         <div className={styles.tab_buttons}>
+       
           {tabs.map((tab, index) => (
+            
             <div
               style={{
                 color: isActive === index ? '#00F3F4' : '',
@@ -237,6 +278,7 @@ const AllThemesData = [
           ))}
         </div>
         <div className={styles.tab_content}>{tabs[isActive].content}</div>
+      
       </div>
     </div>
   

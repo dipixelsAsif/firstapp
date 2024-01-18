@@ -8,9 +8,11 @@ import Video from "../public/assets/video/DipixelsAllServices.mp4";
 import HeroContactus from "./compnents/HeroSection/HeroContactus";
 import ThemesTabs from "./compnents/ThemesTabs/ThemesTabs";
 
+
 const Themes = () => {
   return (
     <>
+
  <Layout>
         <Hero
           title="our"

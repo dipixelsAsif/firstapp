@@ -5,75 +5,97 @@ import styles from '../../../styles/PackagesTabber.module.css'
 const AllPortfolioData = [
   {
     image: '/assets/WebPortfolio1.png',
+
   },
   {
     image: '/assets/WebPortfolio2.png',
+ 
   },
   {
     image: '/assets/WebPortfolio3.png',
+ 
   },
   {
     image: '/assets/MobilePortfolio1.png',
+
   },
   {
     image: '/assets/MobilePortfolio2.png',
+ 
   },
   {
     image: '/assets/MobilePortfolio3.png',
+ 
   },
   {
     image: '/assets/VideoPortfolio1.png',
+    
   },
   {
     image: '/assets/VideoPortfolio2.png',
+  
   },
   {
     image: '/assets/VideoPortfolio3.png',
+ 
   },
 ]
 
 const WebPortfolioData = [
   {
     image: '/assets/WebPortfolio1.png',
+    
   },
   {
     image: '/assets/WebPortfolio2.png',
+
   },
   {
     image: '/assets/WebPortfolio3.png',
+  
   },
   {
     image: '/assets/WebPortfolio4.png',
+   
   },
   {
     image: '/assets/WebPortfolio5.png',
+   
   },
   {
     image: '/assets/WebPortfolio6.png',
+  
   },
   {
     image: '/assets/VideoPortfolio1.png',
+  
   },
   {
     image: '/assets/VideoPortfolio2.png',
+  
   },
   {
     image: '/assets/VideoPortfolio3.png',
+   
   },
 ]
 
 const MobilePortfolioData = [
   {
     image: '/assets/MobilePortfolio1.png',
+   
   },
   {
     image: '/assets/MobilePortfolio2.png',
+  
   },
   {
     image: '/assets/MobilePortfolio3.png',
+   
   },
   {
     image: '/assets/MobilePortfolio4.png',
+   
   },
   // {
   //   image: '/assets/MobilePortfolio5.png',
@@ -83,42 +105,54 @@ const MobilePortfolioData = [
 const LogoPortfolioData = [
   {
     image: '/assets/LogoPortfolio1.png',
+ 
   },
   {
     image: '/assets/LogoPortfolio2.png',
+   
   },
   {
     image: '/assets/LogoPortfolio3.png',
+   
   },
   {
     image: '/assets/LogoPortfolio4.png',
+   
   },
   {
     image: '/assets/LogoPortfolio5.png',
+   
   },
   {
     image: '/assets/LogoPortfolio6.png',
+   
   },
 ]
 
 const VideoPortfolioData = [
   {
     image: '/assets/VideoPortfolio1.png',
+   
   },
   {
     image: '/assets/VideoPortfolio2.png',
+ 
   },
   {
     image: '/assets/VideoPortfolio3.png',
+  
   },
   {
     image: '/assets/VideoPortfolio4.png',
+   
   },
   {
     image: '/assets/VideoPortfolio5.png',
+  
   },
   {
     image: '/assets/VideoPortfolio6.png',
+   
   },
 ]
 function Tabber() {
